@@ -1,5 +1,7 @@
 {
+
   "name": "ollievand.github.io",
+  "homepage": "https://ollievand.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -35,6 +37,5 @@
   "devDependencies": {
     "gh-pages": "^3.2.3"
   }
-  , 
-  "homepage": "https://ollievand.github.io"
+  
 }
