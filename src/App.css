@@ -4,6 +4,8 @@ html,body {
 
 .App {
   text-align: center;
+  position: relative;
+  min-height: 100vh;
 }
 
 .App-logo {
