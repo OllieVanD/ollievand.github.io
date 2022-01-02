@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.3af08bf7.css",
-    "main.js": "/static/js/main.ba4c7e2f.js",
+    "main.css": "/static/css/main.83a32f71.css",
+    "main.js": "/static/js/main.212feacb.js",
     "static/js/787.475fea92.chunk.js": "/static/js/787.475fea92.chunk.js",
     "static/media/background.jpg": "/static/media/background.258bf26226162f79a8ad.jpg",
+    "static/media/EmailLogo.jpg": "/static/media/EmailLogo.8ff0b5698deb97f29820.jpg",
+    "static/media/portfolio_background.jpg": "/static/media/portfolio_background.99cd511673ee22b7f541.jpg",
+    "static/media/PortBG.jpg": "/static/media/PortBG.2fe8c5888f1ba13a2772.jpg",
+    "static/media/LinkedInLogo.jpg": "/static/media/LinkedInLogo.29f7bd95d15124b39308.jpg",
     "index.html": "/index.html",
-    "main.3af08bf7.css.map": "/static/css/main.3af08bf7.css.map",
-    "main.ba4c7e2f.js.map": "/static/js/main.ba4c7e2f.js.map",
+    "main.83a32f71.css.map": "/static/css/main.83a32f71.css.map",
+    "main.212feacb.js.map": "/static/js/main.212feacb.js.map",
     "787.475fea92.chunk.js.map": "/static/js/787.475fea92.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3af08bf7.css",
-    "static/js/main.ba4c7e2f.js"
+    "static/css/main.83a32f71.css",
+    "static/js/main.212feacb.js"
   ]
 }
