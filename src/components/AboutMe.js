@@ -1,0 +1,64 @@
+import styles from '../assets/css/styles.module.css'
+import React from 'react'
+
+const AboutMe = () => {
+  return (
+    <>
+
+      <div className={styles.bgStructure}>
+        <div className={styles.pageText}>
+        <h2 id={styles.pageHeads}>Programming Experience</h2>
+        <h3 id={styles.pageHeads}>JavaScript</h3>
+          <ul>
+            <li>NodeJs - This has been my preffered back-end programming lanuage, which I have around 6 months experience using.</li>
+            <li>Browser - Have used a variety of different web based JS features, including jQuery, AJAX and JSON to name a few.</li>
+            <li>React - Have created a few different web pages using React(including this page!), using both class and functional components</li>
+            <li>ExpressJs - Used this framework for interactive routing for a few different web pages, as well as setting up an active API to receive a request and send a JSON in response.</li>
+            <li>Sequelize - Used to set up and communicate with a Postgres database on a few different applications.</li>
+          </ul>
+          <h3 id={styles.pageHeads}>Java</h3>
+          <ul>
+            <li>Completed the Java SE 8 Associate certification and have a good understanding of the principles, but haven{"'"}t used much in practice.</li>
+          </ul>
+          <h3 id={styles.pageHeads}>C#</h3>
+          <ul>
+            <li>Have around 6 months experience and was my first introduction to an OO programming language.</li>
+            <li>Created a text summarizer, which read a large body of text and converted it all into one sentence based on the populartity of a word. This was my first large project, and did a better job of throwing out nonsense, rather than a summarized sentence!</li>
+          </ul>
+          <h3 id={styles.pageHeads}>HTML & CSS</h3>
+          <ul>
+            <li>Have used many times on a variety of projects.</li>
+          </ul>
+          <h3 id={styles.pageHeads}>SQL</h3>
+          <ul>
+            <li>MySQL & PostgreSQL</li>
+            <li>Have created, managed and interacted with databases using both a CLI and GUI.</li>
+            <li>Experience setting up tables with different relational models.</li>
+          </ul>
+          <h3 id={styles.pageHeads}>Command-Line Interfaces</h3>
+          <ul>
+            <li>Git Bash - Have a lot of experience using this to set-up and work on different Github repositories, including personal and group projects.</li>
+            <li>Powershell - Experience using this to compile and run Java projects.</li>
+            <li>Linux - Have set up and managed my own virtual Linux environment, including setting up mail servers, changing user/group access and various other tasks as part of a module for my PostGraduate degree.</li>
+          </ul>
+          <h2 id={styles.pageHeads}>Education</h2>
+          <h3 id={styles.pageHeads}>MSc: Information & Communication Technology</h3>
+          <ul>
+          <p>I chose to pursue an opportuninity with Digital Futures Academy, rather than completing my masters, I still am yet to complete my final project, which is something I may revisit in the future.</p>
+              <p>10/01/2020 - 10/06/2021 <br />
+              Anglia Ruskin University <br/>
+              Modules including: Developing Web Applications (75%), Software Implementation (62%), Computer Systems and Servers (88%), Secure Systems (77%) and Research Methods (60%).</p>
+          </ul>
+          <h3 id={styles.pageHeads}>BA Hons: Accounting And Management</h3>
+          <ul>
+          <p> 10/09/2016 - 16/06/2019<br />
+              University of Reading <br />
+              Grade: 2:2</p>
+          </ul>
+      </div>
+    </div>
+    </>
+  )
+}
+
+export default AboutMe

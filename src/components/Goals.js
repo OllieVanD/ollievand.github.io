@@ -1,7 +1,7 @@
 import styles from '../assets/css/styles.module.css'
 import React from 'react'
 
-const Portfolio = () => {
+const Goals = () => {
   return (
     <>
 
@@ -57,4 +57,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Goals
