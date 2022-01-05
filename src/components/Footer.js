@@ -18,12 +18,6 @@ const Footer = () => {
                 <img src={emailImage} alt='Email Logo' className={styles.LogoSizing} />
                 </a>
             </div>
-            <div className={styles.columnFurther}>
-              <p> ellooo </p>
-            </div>
-            <div className={styles.columnFurther}>
-              <p > ellooo </p>
-            </div>
           </div>
   )
 }

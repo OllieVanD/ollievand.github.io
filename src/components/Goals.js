@@ -7,8 +7,8 @@ const Goals = () => {
 
       <div className={styles.bgStructure}>
         <br />
-        <div className={styles.pageHeads}>
-        <h2> Title 1 </h2>
+        <div className={styles.pageText}>
+        <h2 className={styles.pageHeads}> Project One</h2>
         </div>
 
         <br /><br /><br /><br />

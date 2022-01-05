@@ -7,6 +7,7 @@ const AboutMe = () => {
 
       <div className={styles.bgStructure}>
         <div className={styles.pageText}>
+          <h1 id={styles.pageHeads}>Experience</h1>
         <h2 id={styles.pageHeads}>Programming Experience</h2>
         <h3 id={styles.pageHeads}>JavaScript</h3>
           <ul>
@@ -40,6 +41,26 @@ const AboutMe = () => {
             <li>Git Bash - Have a lot of experience using this to set-up and work on different Github repositories, including personal and group projects.</li>
             <li>Powershell - Experience using this to compile and run Java projects.</li>
             <li>Linux - Have set up and managed my own virtual Linux environment, including setting up mail servers, changing user/group access and various other tasks as part of a module for my PostGraduate degree.</li>
+          </ul>
+          <h2 id={styles.pageHeads}>Work Experience</h2>
+          <h3 id={styles.pageHeads}>Software Engineer</h3>
+          <h3 id={styles.pageHighlight}>Digital Futures Academy</h3>
+          <h4 id={styles.pageHighlight}>01/06/2021 - 01/10/2021</h4>
+          <ul>
+            <li>Created a bunch of different web projects using HTML, CSS and React for the frontend.</li>
+            <li>As well as using NodeJs for the backend, utilizing Express frameworks to create API's, as well as Sequelize to interact with a PostgreSQL database.</li>
+            <li>Utilized a test-driven development cycle throughout the academy and practiced working in an agile development cycle in a group project.</li>
+            <li>Worked in a group project where we broke up into smaller teams, mainly took charge during the smaller groups, but also ensured that other people took charge to learn as much as possible during the process.</li>
+            <li>Practiced pair-programming several times throughout the academy.</li>
+          </ul>
+          <h3 id={styles.pageHeads}>Transmission Systems Operator</h3>
+          <h3 id={styles.pageHighlight}>Gas Management Service Limited</h3>
+          <h4 id={styles.pageHighlight}>15/06/2019 - 01/06/2021</h4>
+          <ul>
+            <li>Controlling and maintaining a variety of different pipelines and gas storage sites in the European Gas network.</li>
+            <li>Working with a variety of different software, providing feedback to various IT teams to help maintain the development.</li>
+            <li>Dealing with various customers, sometimes in high pressure situations to ensure the pipelines are managed safely and effectively while maintaining industry regulations.</li>
+            <li>Maintaining a high level of concentration and problem-solving over a long period of time, to ensure that all network issues are solved over a 24/7 period, including working night shifts.</li>
           </ul>
           <h2 id={styles.pageHeads}>Education</h2>
           <h3 id={styles.pageHeads}>MSc: Information & Communication Technology</h3>
