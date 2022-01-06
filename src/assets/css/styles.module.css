@@ -5,7 +5,7 @@ body,html{
 .Banner {
     background-image: url('../../img/background.jpg');
     background-size: 100% ;
-    /* background-size: 100vw ; */
+    height: 82vh;
     z-index: -1000;
     padding-top: 0.1vw; 
     padding-bottom: 0.1vw;
@@ -62,19 +62,11 @@ body,html{
   }
   
   .mainText{
-    height: 80vh;
-    flex-wrap: wrap;
-    width: 100vh; 
-    display: flex;
-    padding-left:25vw;
-    align-items: center; 
-    /* font-size: 12px; */
-    justify-content: center;
-    /* padding-top:1.5vh; */
+    width: 100%; 
     font-size: 2vw;
     color: azure;
-    /* text-align: center; */
-    /* margin-left: 2vw; */
+    padding-top: 0.1vw; 
+    padding-bottom: 0.1vw;
   }
 
   .bgStructure {
@@ -96,12 +88,12 @@ body,html{
   }
   #pageHeadsRef:link {
     margin-left: 2vw;
-    color: rgb(43, 42, 42);
+    color: rgba(235, 229, 229, 0.932);
     text-decoration: underline;
   }
   #pageHeadsRef:visited {
     margin-left: 2vw;
-    color: rgb(184, 182, 182);
+    color: rgb(226, 226, 226);
     text-decoration: underline;
   }
   #pageHeadsRef:hover {
@@ -116,7 +108,8 @@ body,html{
   #introText {
     text-align: center;
     color: whitesmoke;
-    
+    margin-left: 30vw;
+    margin-right: 30vw;
   }
   #desc {
     margin-left: 2vw;

@@ -7,8 +7,8 @@ const Portfolio = () => {
 
       <div className={styles.bgStructure}>
       <h1 id={styles.pageHeads}>Projects</h1>
-        <p id={styles.introText}> Here you can find a list of all the projects I've worked on and the titles contain a link to the Github repositories. <br />
-        I am currently in the process of updating and cleaning up some of the repositories, as well as updating this<br /> webpage to include more of my work.
+        <p id={styles.introText}> Here you can find a list of all the projects I've worked on and the titles contain a link to the Github repositories.
+        I am currently in the process of updating and cleaning up some of the repositories, as well as updating this webpage to include more of my work.
          Also, check out the repository for this <a href ="https://github.com/OllieVanD/ollievand.github.io" id={styles.header}>webpage</a> too!</p>
         <div className={styles.pageText}>
         <h2><a href ="https://main.d37tv71uonakk1.amplifyapp.com/" id={styles.pageHeadsRef}>Cohort Display Page</a></h2>
