@@ -60,6 +60,15 @@ const Portfolio = () => {
             login and then post to the page once they were logged in. The post will then show the username of the poster and allow users
             to comment on that post. Similarly to the messaging application, this was all done using ExpressJs, Embedded JavaScript and
             a PostgreSQL database.</p>
+          <h2><a href ="https://github.com/OllieVanD/bank-challenge" id={styles.pageHeadsRef}>Bank Challenge</a></h2>
+          <h3 id={styles.pageHeads}>Lanuages Used</h3>
+          <ul>
+            <li>NodeJs</li>
+            <li>Testing Framework - Jasmine</li>
+          </ul>
+          <p id={styles.desc}>I undertook this challenege as part of Digital Futures academy, and was an extensive look at
+            the TDD process, ensuring that we utilized both feature and unit testing throughout the development. This was one of my first projects
+            utilizing the TDD process and user stories, following OOP specifically.</p>
         </div>
     </div>
     </>

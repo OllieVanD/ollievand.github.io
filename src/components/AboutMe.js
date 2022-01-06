@@ -23,7 +23,7 @@ const AboutMe = () => {
           </ul>
           <h3 id={styles.pageHeads}>C#</h3>
           <ul>
-            <li>Have around 6 months experience and was my first introduction to an OO programming language.</li>
+            <li>Have around 6 months experience and was my first introduction to an OOP programming language.</li>
             <li>Created a text summarizer, which read a large body of text and converted it all into one sentence based on the populartity of a word. This was my first large project, and did a better job of throwing out nonsense, rather than a summarized sentence!</li>
           </ul>
           <h3 id={styles.pageHeads}>HTML & CSS</h3>
@@ -42,6 +42,10 @@ const AboutMe = () => {
             <li>Powershell - Experience using this to compile and run Java projects.</li>
             <li>Linux - Have set up and managed my own virtual Linux environment, including setting up mail servers, changing user/group access and various other tasks as part of a module for my PostGraduate degree.</li>
           </ul>
+          <h3 id={styles.pageHeads}>Agile - Scrum </h3>
+          <p id={styles.desc}>During a group project for Digital Futures Academy, the whole cohort of 18 people was split into 5 teams, and our goal was to produce a large codebase (described more in projects) over two weeks.
+              We were then giving sprints to work on in our teams, where we regularly reviewed our process of designing, producing and improving our code. I managed our team and delegated the sprints, with regular code reviews
+              to ensure our code was cohesive and of a high standard.</p>
           <h2 id={styles.pageHeads}>Work Experience</h2>
           <h3 id={styles.pageHeads}>Software Engineer</h3>
           <h3 id={styles.pageHighlight}>Digital Futures Academy</h3>

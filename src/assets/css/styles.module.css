@@ -4,9 +4,11 @@ body,html{
 
 .Banner {
     background-image: url('../../img/background.jpg');
-    background-size: 100vh ;
-    background-size: 100vw ;
+    background-size: 100% ;
+    /* background-size: 100vw ; */
     z-index: -1000;
+    padding-top: 0.1vw; 
+    padding-bottom: 0.1vw;
 }
 
 .header {
@@ -60,15 +62,19 @@ body,html{
   }
   
   .mainText{
-    height: 80.5vh;
+    height: 80vh;
     flex-wrap: wrap;
     width: 100vh; 
     display: flex;
     padding-left:25vw;
     align-items: center; 
-    font-size: 12px;
+    /* font-size: 12px; */
+    justify-content: center;
+    /* padding-top:1.5vh; */
     font-size: 2vw;
     color: azure;
+    /* text-align: center; */
+    /* margin-left: 2vw; */
   }
 
   .bgStructure {
